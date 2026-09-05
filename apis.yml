@@ -1,17 +1,38 @@
 aid: 458energy
 name: 45-8 ENERGY
-description: '45-8 ENERGY is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: >-
+  45-8 ENERGY is a French exploration and production company, founded in 2017 and
+  headquartered in Metz with offices in Lyon, dedicated to helium and natural (native)
+  hydrogen in Europe. It is the first company in France and Western Europe specialised in
+  the exploration and production of these two low-carbon subsurface gases, covering the
+  full value chain from geoscientific exploration through production, distribution and
+  recycling. In 2024 it delivered the first helium produced on Western European soil, and
+  it operates RECYCL'He, Europe's first mobile helium recovery and recycling unit. Its
+  exploration and production portfolio spans France (Fonts-Bouillants, Avant-Monts,
+  Marensin, Beauvoir), Germany (Guhlen, Brimir), the Balkans and the United States
+  (Humboldt, Fayette). In April 2026 Ad Terra took a majority stake in the company. 45-8
+  ENERGY is a physical-resources operator and publishes no developer program, public API,
+  SDK or machine-readable data surface.
 url: https://raw.githubusercontent.com/api-evangelist/458energy/refs/heads/main/apis.yml
+image: https://458energy.com/wp-content/uploads/2023/01/Logo-45-8-ENERGY-Fond-transparent.png
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
 x-tier-reason: harvest
+position: Producing
 specificationVersion: '0.20'
 created: '2026-09-05'
 modified: '2026-09-05'
 tags:
 - Company
+- Energy
+- Helium
+- Natural Hydrogen
+- Natural Resources
+- Exploration and Production
+- Industrial Gases
+- Cleantech
+- France
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +41,52 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://equityzen.com/company/458energy
+  url: https://458energy.com/
+- type: About
+  url: https://458energy.com/story/
+- type: ContactUs
+  url: https://458energy.com/contact-us/
+- type: Careers
+  url: https://458energy.com/recrutement/
+- type: InvestorRelations
+  url: https://458energy.com/investors/
+- type: PressReleases
+  url: https://458energy.com/press/
+- type: PrivacyPolicy
+  url: https://458energy.com/privacy-policy/
+- type: TermsOfService
+  url: https://458energy.com/mentions-legales/
+- type: LLMsTxt
+  url: llms/458energy-llms.txt
+- type: DomainSecurity
+  url: security/458energy-domain-security.yml
+- type: Plans
+  url: plans/458energy-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/458energy-rate-limits.yml
+x-enrichment:
+  date: '2026-09-05'
+  status: minimal
+  artifacts_added: 5
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: >-
+    45-8 ENERGY drills for helium and natural hydrogen; the entire public site is 62
+    corporate pages enumerated from its own sitemap with no developer, docs or data section,
+    and the only machine-readable surface on the domain is the stock WordPress REST API at
+    /wp-json/ whose 23 namespaces are all WordPress core or third-party plugins (Elementor,
+    Yoast, Contact Form 7, OceanWP, Polylang), not a 45-8 ENERGY product.
+  evidence:
+  - url: https://458energy.com/page-sitemap.xml
+    status: 200
+  - url: https://458energy.com/openapi.json
+    status: 404
+  - url: https://458energy.com/llms.txt
+    status: 404
+  - url: https://458energy.com/.well-known/agent-card.json
+    status: 404
+  - url: https://458energy.com/wp-json/
+    status: 200
+  checked: '2026-09-05'

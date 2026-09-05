@@ -1,0 +1,83 @@
+generated: '2026-09-05'
+method: probed
+source: >-
+  Direct HTTP probe of the named /.well-known/ path list on every host this record knows
+  (458energy.com, www.458energy.com, 458energy.de). No API baseURL or OpenAPI servers[]
+  host exists for this company, so the registrable domain, its www alias and the German
+  regional site are the complete host set.
+name: 45-8 ENERGY
+note: >-
+  Nothing served. Every named path returned a real 404 from the WordPress origin, not a
+  soft-200 catch-all: a control probe of a random nonexistent /.well-known/ path also
+  returned 404, so the negatives are trustworthy. No WellKnown or SecurityTxt pointer is
+  emitted, because a recorded absence is not a presence. 458energy.de answers on HTTP only
+  (no TLS listener on 443), so its paths could not be probed over HTTPS.
+control_probe:
+  url: https://458energy.com/.well-known/zzz-control-24810
+  status: 404
+  interpretation: origin returns a genuine 404 for unknown well-known paths
+hosts:
+- host: 458energy.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: www.458energy.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 301
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 301
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 301
+    file: null
+  - path: /.well-known/api-catalog
+    status: 301
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 301
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 301
+    file: null
+  - path: /.well-known/agent.json
+    status: 301
+    file: null
+- host: 458energy.de
+  documents:
+  - path: /.well-known/security.txt
+    status: 0
+    file: null
+    note: connection failed over HTTPS; host serves HTTP only
+  - path: /.well-known/api-catalog
+    status: 0
+    file: null
+    note: connection failed over HTTPS; host serves HTTP only
+  - path: /.well-known/agent-card.json
+    status: 0
+    file: null
+    note: connection failed over HTTPS; host serves HTTP only
+  - path: /.well-known/agent.json
+    status: 0
+    file: null
+    note: connection failed over HTTPS; host serves HTTP only

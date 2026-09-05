@@ -1,0 +1,11 @@
+generated: '2026-09-05'
+method: searched
+source: https://458energy.com/
+name: 45-8 ENERGY
+limit_count: 0
+note: >-
+  No published rate limits, because there is no API to limit. The complete public site was
+  enumerated from https://458energy.com/sitemap_index.xml (62 pages, all corporate/marketing)
+  and contains no developer portal, API reference, or documentation of any request quota,
+  window, burst allowance or RateLimit-* / Retry-After response header. An honest zero.
+rate_limits: []
