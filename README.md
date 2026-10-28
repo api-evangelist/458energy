@@ -64,5 +64,93 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-45-8 ENERGY is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/458energy
+45-8 ENERGY is a French exploration and production company, founded in 2017 and headquartered in Metz with offices in Lyon, dedicated to helium and natural (native) hydrogen in Europe. It is the first company in France and Western Europe specialised in the exploration and production of these two low-carbon subsurface gases, covering the full value chain from geoscientific exploration through production, distribution and recycling. In 2024 it delivered the first helium produced on Western European soil, and it operates RECYCL'He, Europe's first mobile helium recovery and recycling unit. Its exploration and production portfolio spans France (Fonts-Bouillants, Avant-Monts, Marensin, Beauvoir), Germany (Guhlen, Brimir), the Balkans and the United States (Humboldt, Fayette). In April 2026 Ad Terra took a majority stake in the company. 45-8 ENERGY is a physical-resources operator and publishes no developer program, public API, SDK or machine-readable data surface.
+
+**Areas:** Company · Energy · Helium · Natural Hydrogen · Natural Resources · Exploration and Production · Industrial Gases · Cleantech · France
+
+## 45-8 ENERGY on APIs.io
+
+Everything profiled for 45-8 ENERGY is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/458energy/](https://apis.io/providers/458energy/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [458Energy Domain Security](https://apis.io/security/458energy/458energy-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [458Energy Plans Pricing](https://apis.io/plans/458energy/458energy-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [458Energy Rate Limits](https://apis.io/rate-limits/458energy/458energy-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://458energy.com/)
+- [Terms of service](https://458energy.com/mentions-legales/)
+- [Privacy policy](https://458energy.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 8.9** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 49.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 21.1 |
+
+**Agent readiness 2.5** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 11.5** — Energy & Utilities
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/458energy/](https://apis.io/providers/458energy/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for 45-8 ENERGY: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/458energy/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
