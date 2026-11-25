@@ -80,19 +80,19 @@ Each property below is a page on APIs.io carrying the machine-readable artifact 
 
 Authentication, trust centre, and vulnerability disclosure.
 
-- [458Energy Domain Security](https://apis.io/security/458energy/458energy-domain-security/)
+- [45-8 ENERGY Domain Security](https://apis.io/security/458energy/458energy-domain-security/)
 
 #### Plans and pricing (1)
 
 Published plans, tiers and prices.
 
-- [458Energy Plans Pricing](https://apis.io/plans/458energy/458energy-plans-pricing/)
+- [45-8 ENERGY Plans Pricing](https://apis.io/plans/458energy/458energy-plans-pricing/)
 
 #### Rate limits (1)
 
 Published request limits.
 
-- [458Energy Rate Limits](https://apis.io/rate-limits/458energy/458energy-rate-limits/)
+- [45-8 ENERGY Rate Limits](https://apis.io/rate-limits/458energy/458energy-rate-limits/)
 
 ## Where to find this API
 
@@ -104,16 +104,16 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 8.9** — minimal · rubric 0.24.0 · scored 2026-10-17
+**Kin Score 9.1** — minimal · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
-| Discoverability | 49.1 |
+| Discoverability | 50.0 |
 | Contract quality | 0.0 |
 | Contract governance | 0.0 |
 | Operational transparency | 0.0 |
 | Developer ergonomics | 0.0 |
-| Access clarity | 21.1 |
+| Access clarity | 25.5 |
 
 **Agent readiness 2.5** — human-only
 
@@ -138,8 +138,14 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | — |
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 11.5** — Energy & Utilities
+**Regulatory alignment 6.6** — Energy & Utilities
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/458energy/](https://apis.io/providers/458energy/).
 
